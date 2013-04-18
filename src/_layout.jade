@@ -1,0 +1,21 @@
+!!! 5
+html.no-js(xmlns:og='http://ogp.me/ns#', xmlns:fb='https://www.facebook.com/2008/fbml')
+  head
+    meta(charset='UTF-8')
+
+    block title
+
+    block meta
+      meta(name='viewport', content='width=device-width')
+      meta(name='author', content=author.name)
+      meta(name='description', content=description)
+      meta(name='keywords', content=keywords)
+      meta(name='robots', content=robots)
+
+    block style
+      link(rel='stylesheet', href='./css/app.css')
+
+    script(src='//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js', charset='UTF-8')
+
+  body
+    block body

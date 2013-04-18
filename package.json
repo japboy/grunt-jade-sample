@@ -1,0 +1,41 @@
+{
+  "name": "grunt-jade-sample",
+  "version": "0.0.1",
+  "title": "最高にクールなホームページ",
+  "description": "最高にクールなホームページです。見ないと損です。",
+  "keywords": [
+    "最高",
+    "クール",
+    "世界一",
+    "天才"
+  ],
+  "homepage": "http://www.example.com/",
+  "robots": [
+    "INDEX",
+    "FOLLOW",
+    "NOODP",
+    "NOYDIR",
+    "NOARCHIVE"
+  ],
+  "author": {
+    "name": "Yu Inao",
+    "email": "yu.inao@facebook.com"
+  },
+  "licenses": [
+    {
+      "type": "UNLICENSE",
+      "url": "http://unlicense.org/"
+    }
+  ],
+  "dependencies": {},
+  "peerDependencies": {},
+  "devDependencies": {
+    "grunt": ">=0.4.0",
+    "grunt-contrib-clean": ">=0.4.0",
+    "grunt-contrib-connect": ">=0.1.1",
+    "grunt-contrib-copy": ">=0.4.1",
+    "grunt-contrib-jade": ">=0.4.0",
+    "grunt-contrib-livereload": ">=0.1.0",
+    "grunt-regarde": ">0.1"
+  }
+}

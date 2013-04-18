@@ -1,0 +1,27 @@
+extends _layout
+
+block title
+  title= title
+
+block append meta
+  include _inc_meta_facebook
+  include _inc_meta_twitter
+
+block body
+  header
+    h1= title
+
+  section#main(role='main')
+    section#sample
+      p #{title} にようこそ。
+
+    section#sns
+      div#sns-twitter
+        include _inc_embed_twitter
+      div#sns-facebook
+        include _inc_embed_facebook
+      div#sns-line
+        include _inc_embed_line
+
+  footer
+    address No rights reserved.
