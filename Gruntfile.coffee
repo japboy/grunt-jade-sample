@@ -97,7 +97,10 @@ module.exports = (grunt) ->
     #
     regarde:
       source:
-        files: '<%= path.source %>/**/*'
+        files: [
+          '<%= path.source %>/**/*'
+          'package.json'
+        ]
         tasks: [
           'default'
           'livereload'
